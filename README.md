@@ -66,9 +66,11 @@ Available options:
  
 ## Examples
 
-	csf-cf-ip.php -r
-	csf-cf-ip.php -r -a "/etc/csf/csf.allow" -i "/etc/csf/csf.ignore"
-	csf-cf-ip.php --reload --command="csf -r" --allow="/etc/csf/csf.allow" --ignore="/etc/csf/csf.ignore"
+	$ csf-cf-ip.php -r
+
+	$ csf-cf-ip.php -r -a "/etc/csf/csf.allow" -i "/etc/csf/csf.ignore"
+
+	$ csf-cf-ip.php --reload --command="csf -r" --allow="/etc/csf/csf.allow" --ignore="/etc/csf/csf.ignore"
 
 	
 ## Caveats
