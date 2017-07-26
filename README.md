@@ -23,7 +23,9 @@ Cloudflare IP updater for CSF (ConfigServer Security & Firewall)
 * Install csf-cf-ip.php to an appropriate location and give execute permission
 
 	$ cd /usr/local/src/
+
 	$ git clone https://github.com/vkucukcakar/csf-cf-ip.git	
+
 	$ cp csf-cf-ip/csf-cf-ip.php /usr/local/bin/
 	
 * Give execute permission if not cloned from github
@@ -36,17 +38,29 @@ Cloudflare IP updater for CSF (ConfigServer Security & Firewall)
 Usage: csf-cf-ip.php [OPTIONS]
 
 Available options:
+
 -u, --update                          *: Download IP lists and update the configuration files
+
 -f, --force                            : Force update
+
 -r, --reload                           : Make csf reload configuration
+
 -c <command>, --command=<command>      : Set csf reload command
+
 -t <seconds>, --timeout=<seconds>      : Set download timeout
+
 -n, --nocert                           : No certificate check
+
 -p, --ports                            : Space separated ports to be used by csf.allow
+
 -a <filename>, --allow=<filename>      : Output csf.allow file that csf will use to allow IPs
+
 -i <filename>, --ignore=<filename>     : Output csf.ignore file that lfd will use to ignore IPs
+
 -s <urls>, --sources=<urls>            : Override download sources (space separated URLs)
+
 -v, --version                          : Display version and license information
+
 -h, --help,                            : Display usage
 
  
