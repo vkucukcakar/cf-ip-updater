@@ -42,7 +42,7 @@ Available options:
 
 -r, --reload                           : Trigger reload command on list update
 
--c <command>, --command=<command>      : Set related service reload command
+-c < command >, --command=<command>      : Set related service reload command
 
 -t <seconds>, --timeout=<seconds>      : Set download timeout
 
