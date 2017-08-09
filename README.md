@@ -42,21 +42,21 @@ Available options:
 
 -r, --reload                           : Trigger reload command on list update
 
--c < command >, --command=<command>      : Set related service reload command
+-c \<command>, --command=\<command>      : Set related service reload command
 
--t <seconds>, --timeout=<seconds>      : Set download timeout
+-t \<seconds>, --timeout=\<seconds>      : Set download timeout
 
 -n, --nocert                           : No certificate check
 
--o <filename>, --output=<filename>    *: Write IP list as a new raw text file (old file will be overwritten)
+-o \<filename>, --output=\<filename>    *: Write IP list as a new raw text file (old file will be overwritten)
 
--a <filename>, --allow=<filename>      : Output csf.allow file that csf will use to allow IPs
+-a \<filename>, --allow=\<filename>      : Output csf.allow file that csf will use to allow IPs
 
--i <filename>, --ignore=<filename>     : Output csf.ignore file that lfd will use to ignore IPs
+-i \<filename>, --ignore=\<filename>     : Output csf.ignore file that lfd will use to ignore IPs
 
 -p, --ports                            : Space separated ports to be used by csf.allow (leave empty for all ports)
 
--s <urls>, --sources=<urls>            : Override download sources (space separated URLs)
+-s \<urls>, --sources=\<urls>            : Override download sources (space separated URLs)
 
 -v, --version                          : Display version and license information
 
