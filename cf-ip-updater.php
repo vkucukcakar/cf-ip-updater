@@ -118,7 +118,7 @@ class cf_ip_updater {
 				."     Output csf.allow file that csf will use to allow IPs\n"
 				." -i <filename>, --ignore=<filename>\n"
 				."     Output csf.ignore file that lfd will use to ignore IPs\n"
-				." -p, --ports\n"
+				." -p <ports>, --ports=<ports>\n"
 				."     Space separated ports to be used by csf.allow (leave empty for all ports)\n"
 				." -s <urls>, --sources=<urls>\n"
 				."     Override download sources (space separated URLs)\n"
