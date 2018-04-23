@@ -1,3 +1,5 @@
+### This project is deprecated in favor of [ip-list-updater](https://github.com/vkucukcakar/ip-list-updater)
+
 # cf-ip-updater
 
 Cloudflare IP updater
@@ -16,19 +18,19 @@ Cloudflare IP updater
 ## Installation
 
 * Install PHP-CLI with openssl extension if not installed (OS dependent)
-	
+
 * Install cf-ip-updater.php to an appropriate location and give execute permission
 
 	$ cd /usr/local/src/
 
-	$ git clone https://github.com/vkucukcakar/cf-ip-updater.git	
+	$ git clone https://github.com/vkucukcakar/cf-ip-updater.git
 
 	$ cp cf-ip-updater/cf-ip-updater.php /usr/local/bin/
-	
+
 * Give execute permission if not cloned from github
 
 	$ chmod +x /usr/local/bin/cf-ip-updater.php
-	
+
 
 ## Usage
 
@@ -62,7 +64,7 @@ Available options:
 
 -h, --help,                            : Display usage
 
- 
+
 ## Examples
 
 ### Examples (raw mode)
@@ -79,7 +81,7 @@ Available options:
 
 	$ cf-ip-updater.php -u -r --ports="80 443"
 
-	
+
 ## Caveats
 
 * The script will run in "raw" mode if -o (--output) option is defined, and in "csf" mode if not defined.
